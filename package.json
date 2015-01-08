@@ -1,7 +1,7 @@
 {
       "name"                        : "ee-bump"
     , "description"                 : "bump package.json version, git commit, git tag, git push origin, npm publish"
-    , "version"                     : "0.2.0"
+    , "version"                     : "0.2.1"
     , "homepage"                    : "https://github.com/eventEmitter/ee-bump"
     , "author"                      : "Michael van der Weg <michael@joinbox.com> (http://joinbox.com/)" 
     , "licence"                     : "mit"
@@ -27,6 +27,7 @@
     }
     , "optionalDependencies": {}
     , "keywords"                    : []
+    , "preferGlobal": true
     , "bin": {
         "bump": "./index.js"
     }
