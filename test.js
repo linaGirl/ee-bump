@@ -11,4 +11,6 @@
 
     git.pull().then(function() {
         return git.commit('some more progress')
-    }).then(git.push.bind(git)).then().catch(log);
+    }).then(function() {
+        return git.push();
+    }).then().catch(log);
