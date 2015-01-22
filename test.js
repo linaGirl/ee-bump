@@ -13,4 +13,6 @@
         return git.commit('some more progress')
     }).then(function() {
         return git.push();
-    }).then().catch(log);
+    }).then().catch(function(err) {
+        log.error('err', err);
+    });
