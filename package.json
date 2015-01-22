@@ -21,6 +21,8 @@
         , "ee-types"                : "0.1.x"
         , "ee-log"                  : "0.3.x"
         , "es6-promise"             : "2.0.x"
+        , "ee-inquirer"             : "0.1.x"
+        , "chalk"                   : "0.5.x"
     }
     , "devDependencies": {
           "mocha"                   : "1.17.x"
