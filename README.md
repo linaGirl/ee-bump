@@ -1,5 +1,7 @@
 # ee-publish
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventEmitter/ee-bump.svg)](https://greenkeeper.io/)
+
 helper for fast semantic version using git, github & npm
 
 ## installation
